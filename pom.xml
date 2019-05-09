@@ -49,9 +49,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goal>install</goal>
-                    <checkModificationExcludes>
-                        <checkModificationExclude>pom.xml</checkModificationExclude>
-                    </checkModificationExcludes>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
